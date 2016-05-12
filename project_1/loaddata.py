@@ -32,7 +32,7 @@ def get_boxofficemojo_movies():
                                               len(file_contents))
     return movie_list
 
-def load_date():
+def load_data():
     DATA_DIR = os.path.join('data', 'boxofficemojo')
     all_movies=[]
     NameList = [name for name in os.listdir(DATA_DIR) if ".json" in name]
